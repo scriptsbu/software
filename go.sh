@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 sudo rm -rf /usr/local/go
 sudo apt-get purge -y --auto-remove golang-go
