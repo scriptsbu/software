@@ -1,0 +1,1 @@
+OFFICE: sudo bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/office.sh)
