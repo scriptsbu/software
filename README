@@ -1,1 +1,2 @@
-OFFICE: sudo bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/office.sh)
+OFFICE: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/office.sh)
+PULSE AUDIO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/pavu.sh)
