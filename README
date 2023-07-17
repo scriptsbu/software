@@ -1,3 +1,4 @@
 OFFICE: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/office.sh)
 PULSE AUDIO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/pavu.sh)
 CISCO VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/ciscovpn.sh)
+PAPERCUT: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/papercut.sh)
