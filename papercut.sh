@@ -6,3 +6,4 @@ read -p "Press [Enter] key after download is completed"
 sudo apt-get install ~/Downloads/pc-print-deploy-client[papercut.torc.tech].deb -y -f
 sleep 5
 rm ~/Downloads/pc-print-deploy-client[papercut.torc.tech].deb
+/opt/PaperCutPrintDeployClient/initialise.sh -w
