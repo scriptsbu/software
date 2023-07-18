@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo apt-get update
 read -p "A browser will launch Confluence to access a file, login, and return to this screen. Please press [ENTER] to proceed."
 google-chrome https://torc.atlassian.net/ -f
 read -p "A browser will launch Confluence to download a file; Please press [ENTER] to proceed and return to this screen."
