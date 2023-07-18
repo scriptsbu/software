@@ -1,0 +1,9 @@
+
+echo -e "How to change text color in a Linux terminal"
+echo -e "\x1b[41;37m Press [Enter] key after the download is completed.\x1b[K\x1b[0m"
+read -p ""
+google-chrome https://www.codeproject.com/Articles/5329247/How-to-change-text-color-in-a-Linux-terminal
+google-chrome https://unix.stackexchange.com/questions/291852/how-to-change-the-background-color-for-exactly-one-line
+
+echo -e "\x1b[41;37m Press [Enter] key after the download is completed.\x1b[K\x1b[0m"
+read -p ""
