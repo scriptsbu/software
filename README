@@ -7,4 +7,4 @@ PAPERCUT: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/papercu
 
 UNINSTALL:
 CISCO VPN: sudo bash /opt/cisco/anyconnect/bin/anyconnect_uninstall.sh
-PAPERCUT: /opt/PaperCutPrintDeployClient/initialise.sh -w
+PAPERCUT: /opt/PaperCutPrintDeployClient/uninitialise.sh -w && sudo rm -r /opt/PaperCutPrintDeployClient -f
