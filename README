@@ -1,4 +1,10 @@
+INSTALL:
 OFFICE: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/office.sh)
 PULSE AUDIO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/pavu.sh)
 CISCO VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/ciscovpn.sh)
 PAPERCUT: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/papercut.sh)
+
+
+UNINSTALL:
+CISCO VPN: sudo bash /opt/cisco/anyconnect/bin/anyconnect_uninstall.sh
+PAPERCUT: /opt/PaperCutPrintDeployClient/initialise.sh -w
