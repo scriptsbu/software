@@ -13,3 +13,4 @@ sudo apt install snapd
 sudo snap install go --classic
 sudo go version
 sudo rm -rf go1.20.5.linux-amd64.tar.gz
+sudo apt-get update && apt-get upgrade -f -y
