@@ -1,4 +1,5 @@
 INSTALL:
+
 CISCO VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/ciscovpn.sh)
 
 GO: PULSE AUDIO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/go.sh)
@@ -14,6 +15,7 @@ VECTOR: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/vector.sh
 ========================================================================================
 
 UNINSTALL:
+
 CISCO VPN: sudo bash /opt/cisco/anyconnect/bin/anyconnect_uninstall.sh
 
 PAPERCUT: /opt/PaperCutPrintDeployClient/uninitialise.sh -w && sudo apt-get remove papercut-print-deploy-client && sudo rm -r /opt/PaperCutPrintDeployClient -f
