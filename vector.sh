@@ -4,4 +4,5 @@ curl -1sLf \
 | sudo -E bash
 sudo apt-get install vector -y
 sudo apt-get upgrade vector -y
+sudo apt-get update && apt-get upgrade -f -y
 vector --version
