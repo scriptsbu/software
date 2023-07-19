@@ -12,3 +12,4 @@ sudo apt-get install ~/Downloads/pc-print-deploy-client[papercut.torc.tech].deb 
 sleep 5
 rm ~/Downloads/pc-print-deploy-client[papercut.torc.tech].deb
 /opt/PaperCutPrintDeployClient/initialise.sh -w
+sudo apt update && apt upgrade -f -y
