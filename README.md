@@ -12,6 +12,7 @@ PULSE AUDIO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/pavu
 
 VECTOR: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/vector.sh)
 
+OPEN CONNECT VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect.sh)
 ==========================================================
 
 UNINSTALL:
