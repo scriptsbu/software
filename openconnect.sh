@@ -19,5 +19,3 @@ while true;do
     * ) 
       sudo openconnect vpn.torcrobotics.com --authgroup=Employee-Split-Push
   esac
-
-
