@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo apt update -y
 sudo apt install openconnect
-
 while true;do
  
    echo -e "\x1b[41;37m Do you want an alias to be created for ease of use?\x1b[K\x1b[0m"
