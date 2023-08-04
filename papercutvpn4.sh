@@ -9,7 +9,7 @@ while true;do
   case "${QUESTION}" in
     [Yy] ) 
       echo -e "\x1b[41;37m Alias will be "VPN"\x1b[K\x1b[0m"
-      wget http://10.20.240.3/it/pc-print-deploy-client[papercut.torc.tech].deb ~/Downloads | sudo apt-get install ~/Downloads/pc-print-deploy-client[papercut.torc.tech].deb -y -f &&
+      wget http://10.20.240.3/it/pc-print-deploy-client[papercut.torc.tech].deb ~/Downloads && sudo apt-get install ~/Downloads/pc-print-deploy-client[papercut.torc.tech].deb -y -f &&
       sleep 5 &&
       rm ~/Downloads/pc-print-deploy-client[papercut.torc.tech].deb &&
       /opt/PaperCutPrintDeployClient/initialise.sh -w &&
