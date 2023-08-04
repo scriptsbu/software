@@ -1,6 +1,6 @@
 #!/bin/bash
 wget http://10.20.240.3/it/pc-print-deploy-client[papercut.torc.tech].deb
-sudo apt-get install pc-print-deploy-client[papercut.torc.tech].deb -y -f
+sudo dpkg -i pc-print-deploy-client[papercut.torc.tech].deb -y -f
 sleep 5
 rm pc-print-deploy-client[papercut.torc.tech].deb
 /opt/PaperCutPrintDeployClient/initialise.sh -w 
