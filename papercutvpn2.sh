@@ -19,7 +19,7 @@ while true;do
       
     * ) 
       echo -e "\x1b[41;37m Ok, let's connect to the VPN now.\x1b[K\x1b[0m"
-      sudo openconnect vpn.torcrobotics.com --authgroup=Employee-Split-Push -f &&
+      sudo openconnect vpn.torcrobotics.com --authgroup=Employee-Split-Push &&
       wget http://10.20.240.3/it/pc-print-deploy-client[papercut.torc.tech].deb ~/Downloads &&
       sudo apt-get install ~/Downloads/pc-print-deploy-client[papercut.torc.tech].deb -y -f &&
       sleep 5 &&
