@@ -10,8 +10,7 @@ while true;do
   case "${QUESTION}" in
     [Yy] ) 
       echo -e "\x1b[41;37m Alias will be "VPN"\x1b[K\x1b[0m"
-      "alias torcvpn="sudo openconnect vpn.torcrobotics.com --authgroup=Employee-Split-Push"" --user=ahmed.saber && resetdns'
-alias resetdns='sudo systemd-resolve --flush-caches' | sudo tee -a ~/.bashrc && 
+      "alias torcvpn="sudo openconnect vpn.torcrobotics.com --authgroup=Employee-Split-Push"" --user=ahmed.saber && resetdns'alias resetdns='sudo systemd-resolve --flush-caches' | sudo tee -a ~/.bashrc && 
       sudo openconnect vpn.torcrobotics.com --authgroup=Employee-Split-Push
       ;;
       
