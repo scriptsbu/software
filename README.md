@@ -16,6 +16,9 @@ OPEN CONNECT VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main
 
 OPEN CONNECT VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect-full.sh)
 
+VIRTUALBOX: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/virtualbox.sh)
+
+
 ==========================================================
 
 UNINSTALL:
