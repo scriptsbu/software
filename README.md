@@ -12,9 +12,9 @@ PULSE AUDIO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/pavu
 
 VECTOR: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/vector.sh)
 
-OPEN CONNECT VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect-split.sh)
+OPEN CONNECT VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect.sh)
 
-OPEN CONNECT VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect-full.sh)
+OPEN CONNECT FULL VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect-full.sh)
 
 VIRTUALBOX: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/virtualbox.sh)
 
