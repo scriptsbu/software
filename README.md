@@ -21,6 +21,7 @@ OPEN CONNECT STR: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main
 
 VIRTUALBOX: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/virtualbox.sh)
 
+Crowdstrike: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/u20-falcon.sh)
 
 ==========================================================
 
