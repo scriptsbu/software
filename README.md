@@ -1,5 +1,4 @@
 INSTALL:
-
 ==========================================================
 
 GO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/go.sh)
@@ -16,7 +15,6 @@ VIRTUALBOX: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/virtu
 
 Crowdstrike: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/u20-falcon.sh)
 
-==========================================================
 
 VPN's:
 ==========================================================
@@ -32,7 +30,6 @@ OPEN CONNECT STR: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main
 
 Global-Protect-CLI for 20.04: bash <(https://github.com/scriptsbu/software/raw/main/global-protect/gp-20.04/gp-cli-20.04.sh)
 
-==========================================================
 
 UNINSTALL:
 ==========================================================
