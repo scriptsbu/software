@@ -1,5 +1,6 @@
 INSTALL:
 
+==========================================================
 
 GO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/go.sh)
 
@@ -19,6 +20,8 @@ Crowdstrike: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/u20-
 
 VPN's:
 
+==========================================================
+
 
 CISCO VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/ciscovpn.sh)
 
@@ -33,6 +36,8 @@ Global-Protect-CLI for 20.04: bash <(https://github.com/scriptsbu/software/raw/m
 ==========================================================
 
 UNINSTALL:
+
+==========================================================
 
 CISCO VPN: sudo bash /opt/cisco/anyconnect/bin/anyconnect_uninstall.sh
 
