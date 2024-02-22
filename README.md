@@ -1,6 +1,5 @@
 INSTALL:
 
-CISCO VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/ciscovpn.sh)
 
 GO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/go.sh)
 
@@ -12,16 +11,24 @@ PULSE AUDIO: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/pavu
 
 VECTOR: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/vector.sh)
 
+VIRTUALBOX: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/virtualbox.sh)
+
+Crowdstrike: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/u20-falcon.sh)
+
+==========================================================
+
+VPN's:
+
+
+CISCO VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/ciscovpn.sh)
+
 OPEN CONNECT VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect.sh)
 
 OPEN CONNECT FULL VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect-full.sh)
 
-
 OPEN CONNECT STR: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect-str.sh)
 
-VIRTUALBOX: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/virtualbox.sh)
-
-Crowdstrike: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/u20-falcon.sh)
+Global-Protect-CLI for 20.04: bash <(https://github.com/scriptsbu/software/raw/main/global-protect/gp-20.04/gp-cli-20.04.sh)
 
 ==========================================================
 
