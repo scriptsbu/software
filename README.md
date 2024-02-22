@@ -28,7 +28,7 @@ OPEN CONNECT FULL VPN: bash <(curl -Ls https://github.com/scriptsbu/software/raw
 
 OPEN CONNECT STR: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/openconnect-str.sh)
 
-Global-Protect-CLI for 20.04: bash <(https://github.com/scriptsbu/software/raw/main/global-protect/gp-20.04/gp-cli-20.04.sh)
+Global-Protect-CLI for 20.04: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/global-protect/gp-20.04/gp-cli-20.04.sh)
 
 
 UNINSTALL:
