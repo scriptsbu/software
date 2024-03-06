@@ -16,7 +16,7 @@ xdg-open https://torcrobotics-my.sharepoint.com/:u:/r/personal/juan_molleda_torc
 sleep 1
 echo -e "\x1b[41;37mAfter downloading the .deb file, verify that the file exists in the downloads folder.\x1b[K\x1b[0m" && read -p "Press ENTER key to open instpect the folder."
 ls ~/Downloads | grep GlobalProtect_UI_focal_deb-6.1.2.0-82.deb && ls ~/Downloads | grep GlobalProtect_focal_deb-6.1.2.0-82.deb
-read -p "Is GlobalProtect_UI_focal_deb-6.1.2.0-82.deb and GlobalProtect_focal_deb-6.1.2.0-82.deb present in the directory? Press ENTER key to continue."
+read -p "Verify that GlobalProtect_UI_focal_deb-6.1.2.0-82.deb and GlobalProtect_focal_deb-6.1.2.0-82.deb are present in the line above. Press ENTER key to continue."
 ##########################################################################################################
 if [ ! -f "GlobalProtect_UI_focal_deb-6.1.2.0-82.deb" ]; then
    echo -e "\x1b[41;37mGlobalProtect_UI_focal_deb-6.1.2.0-82.deb not found, Please restart Script.\x1b[K\x1b[0m" &&
