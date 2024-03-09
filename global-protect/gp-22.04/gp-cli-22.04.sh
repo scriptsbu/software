@@ -44,6 +44,17 @@ sudo dpkg --force-all -i GlobalProtect_UI_focal_deb-6.1.2.0-82.deb; sudo apt-get
   echo "dev.i915.perf_stream_paranoid=0" | sudo tee -a /etc/sysctl.conf
   sudo sysctl -p
 ###########################################################################################################
+sudo tee /usr/share/applications/gp.desktop > /dev/null <<EOT
+[Desktop Entry]
+Name=GlobalProtect
+Exec=/usr/bin/globalprotect defaultbrowser %u
+Type=Application
+NoDisplay=true
+MimeType=x-scheme-handler/globalprotectcallback;
+EOT
+xdg-mime default gp.desktop "x-scheme-handler/globalprotectcallback"
+xdg-mime query default "x-scheme-handler/globalprotectcallback"  
+###########################################################################################################
 sudo apt-get install gnome-tweak-tool -y -f
 ###########################################################################################################
 #INSTALL GNOME SHELL EXTENSION MANNUALLY
@@ -55,7 +66,6 @@ sudo rm -r ~/Downloads/gnome-browser-connector_42.1-4_all.deb
 #CREATE ALIASES FOR CLI
 ##########################################################################################################
 echo "alias globalprotect-vpn='read -p "add @torc.ai to your username, press ENTER key to continue" && globalprotect connect -p vpn-truck.torc.tech && globalprotect show --status'" | sudo tee -a ~/.bashrc
-
 source ~/.bashrc
 #sudo gedit ~/.bashrc
 ###########################################################################################################
@@ -69,12 +79,12 @@ while true;do
   
   case "${QUESTION}" in
     [Yy] ) 
-      echo "Rebooting now..."    
-       sudo reboot  
+      echo "Starting the test now... to disconnect use the command: globalprotect disconnect"    
+       read -p "add @torc.ai to your username, press ENTER key to continue" && globalprotect connect -p vpn-truck.torc.tech && globalprotect show --status  
       ;;
 
     * ) 
-      echo "Don't forget to Reboot the system to apply changes!"
+      echo "Restart your Terminal so your shell can see the changes. Use globalprotect-vpn to connect and globalprotect disconnect to close the connection."
       exit
       ;;
   esac
