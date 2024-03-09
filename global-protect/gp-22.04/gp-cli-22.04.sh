@@ -65,7 +65,7 @@ sudo rm -r ~/Downloads/gnome-browser-connector_42.1-4_all.deb
 ###########################################################################################################
 #CREATE ALIASES FOR CLI
 ##########################################################################################################
-echo "alias globalprotect-vpn='read -p \"add @torc.ai to your username , press ENTER key to continue\" && globalprotect connect -p vpn-truck.torc.tech && globalprotect show --status'" | sudo tee -a ~/.bashrc
+echo "alias globalprotect-vpn='read -p \"add @torc.ai to your username, press ENTER key to continue\" && globalprotect connect -p vpn-truck.torc.tech && globalprotect show --status'" | sudo tee -a ~/.bashrc
 source ~/.bashrc
 #sudo gedit ~/.bashrc
 ###########################################################################################################
