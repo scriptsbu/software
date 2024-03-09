@@ -75,7 +75,7 @@ echo -e "\x1b[41;37mDone!\x1b[K\x1b[0m"
 while true;do
  
 
-  read -p "Do you want to reboot now(Y/N)?" QUESTION
+  read -p "Do you want to test the VPN (Y/N)?" QUESTION
   
   case "${QUESTION}" in
     [Yy] ) 
