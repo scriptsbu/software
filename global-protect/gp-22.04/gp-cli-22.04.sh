@@ -76,7 +76,7 @@ source ~/.bashrc
 while true;do
  
 
-  read -p "Do you want to test the VPN (Y/N)?" QUESTION
+  read -p "Do you want to test the VPN (Y/N)? (A REBOOT MAY BE REQUIRED AFTER INSTALLATION)" QUESTION
   
   case "${QUESTION}" in
     [Yy] ) 
