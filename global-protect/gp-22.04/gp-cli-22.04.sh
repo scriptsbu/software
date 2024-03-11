@@ -80,7 +80,7 @@ while true;do
   
   case "${QUESTION}" in
     [Yy] ) 
-      echo "Starting the test now... to disconnect use the command: globalprotect disconnect"    
+      echo "Starting the test now... to disconnect use the command: globalprotect disconnect. IF THE TEST FAILS, REBOOT YOUR MACHINE."    
        read -p "add @torc.ai to your username, press ENTER key to continue" && globalprotect connect -p vpn-truck.torc.tech && globalprotect show --status  
       ;;
 
