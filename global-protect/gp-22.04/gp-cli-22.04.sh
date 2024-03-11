@@ -14,7 +14,7 @@ sleep 1
 read -p "PRESS ENTER KEY TO CONTINUE"
 xdg-open https://torcrobotics-my.sharepoint.com/:u:/r/personal/juan_molleda_torc_ai/Documents/GlobalProtect_CLI_installer/GlobalProtect_focal_deb-6.1.2.0-82.deb?download=1
 sleep 1
-echo -e "\x1b[41;37mAfter downloading the .deb file, verify that the file exists in the downloads directory.\x1b[K\x1b[0m" && read -p "Press ENTER key to open instpect the directory."
+echo -e "\x1b[41;37mAfter downloading the .deb file, verify that the file exists in the downloads directory.\x1b[K\x1b[0m" && read -p "Press ENTER key to inspect the directory."
 ls ~/Downloads | grep GlobalProtect_UI_focal_deb-6.1.2.0-82.deb && ls ~/Downloads | grep GlobalProtect_focal_deb-6.1.2.0-82.deb
 read -p "Verify that GlobalProtect_UI_focal_deb-6.1.2.0-82.deb and GlobalProtect_focal_deb-6.1.2.0-82.deb are present in the line above. Press ENTER key to continue."
 ##########################################################################################################
