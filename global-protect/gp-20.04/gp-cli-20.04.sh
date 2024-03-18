@@ -3,6 +3,7 @@ sudo apt-get update
 sudo rm -r ~/Downloads/GlobalProtect_UI_focal_deb-6.1.2.0-82.deb -f
 sudo rm -r ~/Downloads/gnome-browser-connector_42.1-4_all.deb -f
 sudo rm -r ~/Downloads/GlobalProtect_focal_deb-6.1.2.0-82.deb -f
+sudo apt-get purge resolvconf -y -f
 cd ~/Downloads/
 ##########################################################################################################
 #----DOWNLOADING: GlobalProtect_GUI_Installer/GlobalProtect_UI_focal_deb-6.1.2.0-82.deb
