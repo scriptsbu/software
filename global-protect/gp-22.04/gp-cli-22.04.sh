@@ -73,6 +73,7 @@ source ~/.bashrc
 #REBOOT PROMPT# ANY QUESTIONS, PLEASE ASK ALBERTO.SANTIAGO@TORC.AI
 ###########################################################################################################
 echo -e "\x1b[41;37mDone!\x1b[K\x1b[0m"
+systemctl restart gpd.service
 source ~/.bashrc
 while true;do
  
