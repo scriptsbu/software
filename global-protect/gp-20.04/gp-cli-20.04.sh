@@ -62,6 +62,7 @@ echo "alias globalprotect-crc='globalprotect connect -p vpn.torc.tech && globalp
 echo "alias globalprotect-mtl='globalprotect connect -p vpn.torc.tech && globalprotect connect -g MTL && globalprotect show --status'" | sudo tee -a ~/.bashrc
 echo "alias globalprotect-str='globalprotect connect -p vpn.torc.tech && globalprotect connect -g STR && globalprotect show --status'" | sudo tee -a ~/.bashrc
 source ~/.bashrc
+sudo systemctl restart gpd.service
 #sudo gedit ~/.bashrc
 ###########################################################################################################
 #REBOOT PROMPT# ANY QUESTIONS, PLEASE ASK ALBERTO.SANTIAGO@TORC.AI
