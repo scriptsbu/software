@@ -55,6 +55,7 @@ gnome-terminal -- google-chrome https://extensions.gnome.org/extension/615/appin
 ###########################################################################################################
 #REBOOT PROMPT# ANY QUESTIONS, PLEASE ASK ALBERTO.SANTIAGO@TORC.AI
 ###########################################################################################################
+sudo systemctl restart gpd.service
 echo -e "\x1b[41;37mDone!\x1b[K\x1b[0m"
 while true;do
  
