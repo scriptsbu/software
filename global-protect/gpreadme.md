@@ -11,3 +11,5 @@ CLI for 20.04: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/gl
 GUI for 20.04: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/global-protect/gp-20.04/gp-gui-web-20.04.sh)
 
 CLI for 22.04: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/global-protect/gp-22.04/gp-cli-22.04.sh)
+
+Global Protect VPN Purge: bash <(curl -Ls https://github.com/scriptsbu/software/raw/main/global-protect/gp-uninstall.sh)
