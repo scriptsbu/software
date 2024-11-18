@@ -15,7 +15,10 @@ cd ~/Downloads/
 ##########################################################################################################
 echo -e "\x1b[41;37mA browser window will now open to download dependencies; return to Terminal after the download is completed.\x1b[K\x1b[0m"
 read -p "Press ENTER key to proceed with the download."
-xdg-open https://torcrobotics-my.sharepoint.com/:u:/r/personal/juan_molleda_torc_ai/Documents/Network-documents/GP-Ubuntu-18.04-Installer/GlobalProtect_UI_deb-6.1.2.0-82.deb?download=1
+#Confluence Link
+xdg-open https://torc.atlassian.net/wiki/download/attachments/665066314/GlobalProtect_UI_deb-6.2.1.1-276.deb?api=v2
+#MS SharePoint Link
+#xdg-open https://torcrobotics-my.sharepoint.com/:u:/r/personal/juan_molleda_torc_ai/Documents/Network-documents/GP-Ubuntu-18.04-Installer/GlobalProtect_UI_deb-6.1.2.0-82.deb?download=1
 sleep 1
 echo -e "\x1b[41;37mAfter downloading the .deb file, verify that the file exists in the downloads folder.\x1b[K\x1b[0m" && read -p "Press ENTER key to open instpect the folder."
 ls ~/Downloads | grep GlobalProtect_UI_deb-6.1.2.0-82.deb
